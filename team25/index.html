@@ -192,7 +192,7 @@
 
         async function recommendPlace(userInput, retryCount = 0) {
             const messages = [
-                { role: 'system', content: 'You are an assistant that recommends places based on user emotions, desires, and age. The user is over 60 years old, so recommend places suitable for their age. Please answer in 3 lines or less. Please recommend only one appropriate place. The format is "사용자님의 위치에 기반해서 <place>를 안내해드릴게요 "' },
+                { role: 'system', content: 'You are an assistant that recommends places based on user emotions, desires, and age. The user is over 50 years old, so recommend places suitable for their age. Please answer in 3 lines or less. Please recommend only one appropriate place. The format is "사용자님의 위치에 기반해서 <place>를 안내해드릴게요 "' },
                 { role: 'user', content: `사용자가 이렇게 말했습니다: "${userInput}". 이 사람에게 추천할 적합한 장소를 간단히 알려주세요.` }
             ];
 
