@@ -12,7 +12,7 @@ This project is designed to create a web-based AI chatbot application, specifica
   - **User Interaction**: The AI chatbot engages with users by analyzing their mood or requests.
   - **Category Recommendation**: Based on the analysis, the chatbot recommends a relevant location category (e.g., restaurants, cafes, parks).
   - **Navigation**: Users can proceed to view recommended locations on a map by clicking the "View Map" button, which navigates to `map.html`.
-- need openai apikey, endpoint
+- need azure openai apikey, endpoint
 
 ### `map.html`
 
